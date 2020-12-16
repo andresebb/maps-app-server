@@ -2,7 +2,7 @@
 
 This is the backend for maps-app 
 
-## Install dependencias
+## Install dependencies
 
 npm install
 
