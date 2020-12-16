@@ -1,5 +1,11 @@
 # Socket Server
 
-Este backend contiene todo lo necesario para configurar un servidor de express + socket.io.
+This is the backend for maps-app 
 
-Cualquier conexión adicional de sockets, se puede hacer en el archivo ```models/sockets.js``` y cualquier middleware adicional de express, se puede realizar en el archivo ```models/server.js```
+## Install dependencias
+
+npm install
+
+## Run server
+
+npm run dev
