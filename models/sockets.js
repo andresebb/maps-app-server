@@ -22,6 +22,11 @@ class Sockets {
         //Con broadcast envias un msg a todos los clientes conectados execto al que lo emitio
         socket.broadcast.emit("marcador-nuevo", marcador);
       });
+
+      socket.on("marcador-actualizado", (marcador) => {
+        this.marcadores.actualizarMarcador(marcador);
+        socket.broadcast.emit("marcador-actualizado", marcador);
+      });
     });
   }
 }
